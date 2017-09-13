@@ -1,7 +1,7 @@
 module ApplicationHelper
    
    # ページ固有のタイトルの有無でタイトルの文字列を調整して返す。 「｜」がなくせる。
-    def full_title(page_title)
+    def full_title(page_title)                              
         base_title = "Ruby on Rails Tutorial Sample App"
         if page_title.empty?
             base_title
